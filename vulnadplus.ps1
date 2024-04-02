@@ -595,8 +595,6 @@ function Invoke-VulnAD {
     Write-Good "DCSync Done"
     VulnAD-DisableSMBSigning
     Write-Good "SMB Signing Disabled"
-    VulnAD-EnableWinRM
-    Write-Good "Windows Remote Management Enabled"
     VulnAD-AnonymousLDAP
     Write-Good "Anonymous LDAP Query Enabled"
     VulnAD-PublicSMBShare
